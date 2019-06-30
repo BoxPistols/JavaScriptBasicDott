@@ -34,4 +34,12 @@
 
   const copy = objP.cloneNode(true);
   document.body.insertBefore(copy, objh2);
+
+  const text = document.querySelector('input[type="text"]');
+  const textarea = document.querySelector('textarea');
+
+  console.log(text.value);
+  console.log(textarea.value);
+
+  //  End
 }
