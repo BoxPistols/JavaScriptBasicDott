@@ -24,8 +24,14 @@
 
   box.classList.toggle('bd_pink');
 
-
   const objP = document.createElement('p');
   objP.textContent = 'Hello P!';
   document.body.appendChild(objP);
+
+  const objh2 = document.createElement('h2');
+  objh2.textContent = 'Hello h2!';
+  document.body.insertBefore(objh2, ul);
+
+  const copy = objP.cloneNode(true);
+  document.body.insertBefore(copy, objh2);
 }
