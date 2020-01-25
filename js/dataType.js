@@ -1,12 +1,7 @@
 "use strict"
 
-console.log(typeof "hello") // string
-console.log(typeof 5) // number
-console.log(typeof true) // boolean'../css/base.styl'
+const score = 40
+score >= 80 ? console.log('Win') : console.log('Lose')
 
-console.log(typeof underfined)
-console.log(typeof null) // obj
-
-
-console.log('5' + 3) // 53
-console.log(parseInt('5', 10) + 3) // 8 <- parseIntで文字列を数値に変更
+const el = document.querySelector('.content')
+el.innerHTML = score
