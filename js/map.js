@@ -11,5 +11,5 @@
 
   const upPrice2 = prices.map(price => price * 20);
   console.log(upPrice2);
-  el.innerHTML = upPrice2;
+  el.innerHTML = upDatePrices;
 }
