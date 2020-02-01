@@ -12,7 +12,4 @@ const score = [40, 60, 80, 90, 120]
 
 const[a,b, ...hoge] = score // hoge = 残りの配列
 
-addDiv.insertAdjacentHTML('afterbegin',`${a} : ${b} : ${hoge}`)
-
-
-
+addDiv.insertAdjacentHTML('afterbegin',`<p> ${a} : ${b} : ${hoge} </p>`)
